@@ -1,0 +1,15 @@
+# List Flights
+GET http://127.0.0.1:8000/api/flights/
+
+# Create Flight
+POST http://127.0.0.1:8000/api/flights/
+Content-Type: application/json
+
+{
+    "flight_number": "AB123",
+    "departure": "2024-06-30T08:00:00Z",
+    "arrival": "2024-06-30T12:00:00Z",
+    "origin": "JFK",
+    "destination": "LAX",
+    "capacity": 150
+}
